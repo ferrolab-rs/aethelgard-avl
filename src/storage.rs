@@ -1,3 +1,7 @@
+// Copyright (c) 2026 Ferrolab
+// Licensed under the MIT License or the Apache License, Version 2.0.
+// See LICENSE-MIT or LICENSE-APACHE for details.
+
 use crate::error::{Result, SovereignError};
 use std::fmt::Debug;
 

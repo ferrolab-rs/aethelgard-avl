@@ -64,8 +64,17 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 ## ⚖️ License
 
-Licensed under either of:
-*   Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
-*   MIT license ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
+**Sovereign-AVL** is a community-first, high-integrity project. It is dual-licensed under the **MIT** and **Apache 2.0** licenses, making it free for everyone to use, modify, and distribute, even for commercial purposes.
 
-at your option.
+<div align="center">
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+</div>
+
+- **MIT License**: ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
+- **Apache License, Version 2.0**: ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
+
+---
+*Built with precision by **Ferrolab** · 2026*
