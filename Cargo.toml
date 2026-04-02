@@ -1,6 +1,6 @@
 [package]
 name = "aethelgard-avl"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Ferrolab <ferrolab@tutamail.com>"]
 description = "A Sovereign, NASA-grade AVL Tree with generational arena storage and BLAKE3 Merkle-style integrity verification."
