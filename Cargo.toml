@@ -1,0 +1,39 @@
+[package]
+name = "aethelgard-avl"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ferrolab <ferrolab@tutamail.com>"]
+description = "A Sovereign, NASA-grade AVL Tree with generational arena storage and BLAKE3 Merkle-style integrity verification."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/ferrolab-rs/aethelgard-avl"
+homepage = "https://github.com/ferrolab-rs/aethelgard-avl"
+keywords = ["avl", "merkle", "integrity", "sovereign", "security"]
+categories = ["data-structures", "cryptography", "memory-management", "embedded"]
+readme = "README.md"
+exclude = [
+    "*.log",
+    ".docs/",
+    "AUDIT_REPORT.md",
+    "SKEPTIC_REVIEW_TASKS.md",
+    "FINAL_RESULTS.txt",
+    "FINAL_VALIDATION.log",
+]
+
+[dependencies]
+blake3 = "1.5.0"
+parking_lot = "0.12.1"
+thiserror = "1.0.57"
+serde = { version = "1.0", features = ["derive"], optional = true }
+
+[features]
+default = []
+serde = ["dep:serde"]
+
+[[bench]]
+name = "integrity_bench"
+harness = false
+
+[dev-dependencies]
+proptest = "1.4.0"
+criterion = "0.5.1"
+rand = "0.8.5"

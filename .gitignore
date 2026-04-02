@@ -1,0 +1,7 @@
+/target
+*.log
+TRUTH_CHECK.log
+EXTREME_PROOF.log
+FINAL_VALIDATION.log
+FINAL_RESULTS.txt
+.build/
